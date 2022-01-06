@@ -14,3 +14,7 @@
  - properties 태그에 있는 spring 버전 변경 등의 설정은 위의 방법대로 오버라이딩하면 된다.
 
  - @ComponentScan은 컴포넌트(@Configuration @Repository @Service @Controller @RestController)로 등록된 객체들을 Bean으로 등록하라는 명령
+
+## 22/01/06
+ - @ConditionalOnMissingBean은 Maven에 인스톨되어있는 Configuration을 가져다 사용할때, 오버라이딩을 허용해주며 자식프로젝트에 동일한 컴포넌트를 우선으로 빌드한다.
+ 
